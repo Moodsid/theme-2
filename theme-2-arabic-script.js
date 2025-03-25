@@ -176,7 +176,7 @@ function setupLanguageSwitching() {
   // English language button
   if (englishBtn) {
     englishBtn.addEventListener("click", () => {
-      window.location.href = "theme-2-english-html.html";
+      window.location.href = "index.html";
     });
   }
 
