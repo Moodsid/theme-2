@@ -891,7 +891,10 @@ body.dark-theme .education-content {
     justify-content: space-between;
     right: 0; /* Reset for responsive layout */
   }
-
+.section {
+  padding: 50px 20px;
+  margin-left:none;
+}
   .side-nav.active {
     height: 100vh;
     flex-direction: column;
