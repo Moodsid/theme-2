@@ -872,7 +872,10 @@ body.dark-theme .education-content {
     padding: 0 20px;
     justify-content: space-between;
   }
-
+.section {
+  padding: 50px 20px;
+  margin-right:0px;
+}
   .side-nav.active {
     height: 100vh;
     flex-direction: column;
