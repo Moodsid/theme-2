@@ -893,7 +893,7 @@ body.dark-theme .education-content {
   }
 .section {
   padding: 50px 20px;
-  margin-left:none;
+  margin-left: 0px;
 }
   .side-nav.active {
     height: 100vh;
