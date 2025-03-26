@@ -41,7 +41,7 @@ a {
 
 .section {
   padding: 50px 20px;
-  margin-right:75px;
+  margin-right: 75px;
 }
 
 .section-title {
@@ -106,9 +106,9 @@ a {
 .profile-img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 2px;
   object-fit: cover;
-  border: 5px solid var(--light-color);
+
   margin: 0 auto;
 }
 
@@ -692,11 +692,11 @@ footer {
 .control-navbar {
   position: fixed;
   top: 50%;
-  right: 20px;
+  right: 13px;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--card-background);
   border-radius: 9px;
   border: 1px solid black;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -872,10 +872,7 @@ body.dark-theme .education-content {
     padding: 0 20px;
     justify-content: space-between;
   }
-.section {
-  padding: 50px 20px;
-  margin-right:0px;
-}
+
   .side-nav.active {
     height: 100vh;
     flex-direction: column;
