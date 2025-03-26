@@ -47,7 +47,7 @@ a {
 
 .section {
   padding: 50px 20px;
-  margin-left:75px;
+  margin-left: 75px;
 }
 
 .section-title {
@@ -121,9 +121,9 @@ a {
 .profile-img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 2px;
   object-fit: cover;
-  border: 5px solid var(--light-color);
+
   margin: 0 auto;
 }
 
@@ -707,11 +707,11 @@ footer {
 .control-navbar {
   position: fixed;
   top: 50%;
-  left: 20px; /* Changed from right to left for RTL */
+  left: 13px; /* Changed from right to left for RTL */
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--card-background);
   border-radius: 9px;
   border: 1px solid black;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -891,10 +891,7 @@ body.dark-theme .education-content {
     justify-content: space-between;
     right: 0; /* Reset for responsive layout */
   }
-.section {
-  padding: 50px 20px;
-  margin-left: 0px;
-}
+
   .side-nav.active {
     height: 100vh;
     flex-direction: column;
